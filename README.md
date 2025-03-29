@@ -1,2 +1,11 @@
 # TestCase_Netlix
 Netflix test cases ensure that the platform functions smoothly across various scenarios. The login test cases verify whether users can access their accounts using valid credentials or third-party authentication (Google/Facebook) while restricting access for incorrect logins.
+Netflix is a widely used streaming platform that offers movies, TV shows, and original content to users across various devices. To ensure a seamless user experience, comprehensive testing is required across different functionalities, including login, search, playback, account management, and payment processing. Below is a detailed overview of Netflix test cases, categorized into different scenarios.
+
+The authentication and login test cases validate whether users can sign in using valid credentials, Google/Facebook authentication, or recover accounts if they forget their passwords. It also checks that incorrect login attempts display appropriate error messages and prevent unauthorized access. Search functionality is tested to ensure that relevant results appear for valid queries while handling invalid searches gracefully with a "No results found" message.
+
+Streaming and playback test cases verify smooth video playback, buffering behavior under slow internet conditions, and the ability to switch video quality, audio, and subtitles. Tests also ensure that users can add and remove movies/shows from "My List," resume watching from the last played position, and successfully log out. Additionally, offline viewing is tested by checking the ability to download content and play it without an internet connection.
+
+Security and account restrictions include verifying Netflix’s multi-device login policies based on subscription plans, ensuring parental controls effectively block restricted content, and testing session timeouts for inactive users. Payment and subscription tests confirm whether users can successfully subscribe, process payments, and handle expired subscriptions, ensuring proper renewal prompts.
+
+Lastly, multi-profile management cases test the ability to create, edit, and switch between multiple profiles within an account. These test cases collectively help maintain Netflix’s reliability, security, and performance, ensuring a smooth and engaging user experience for millions worldwide. 
